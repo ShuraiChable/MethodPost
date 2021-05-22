@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Countries</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+        <div class="centro">
+            <h1>Countries Consult!!! </h1>
+            <p>Seleccione los campos que desee visualizar</p>
+            <form action="consulta.php" method="POST">
+                <input type="checkbox" name="name">
+                    <label for="name"><b>Nombre</b></label>
+                <input type="checkbox" name="capital">
+                    <label for="capital"><b>Capital</b></label>
+                <input type="checkbox" name="flag">
+                    <label for="flag"><b>Bandera</b></label><br> 
+                <p><input type="submit", value="Consultar" name="consultar" /></p>
+            </form> 
+        </div>
+    </body>
+</html>
+

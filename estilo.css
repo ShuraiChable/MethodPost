@@ -1,0 +1,14 @@
+html {
+    background-image: url(fondos.jpg);
+}
+.centro{
+    background-color: #fafafa;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+.table{
+    margin: auto;
+}
